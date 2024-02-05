@@ -27,10 +27,10 @@ cask "visual-studio-code"
 
 # CLI Tools
 brew "azure-cli"
+brew "awscli"
 brew "gh"
 brew "tree"
 brew "jq"
-cask "awscli"
 cask "google-cloud-sdk"
 
 # Utility Apps
