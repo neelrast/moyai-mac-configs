@@ -1,10 +1,15 @@
-# Mac Setup for Development
+<img src="https://www.dictionary.com/e/wp-content/uploads/2018/09/moai-emoji.png" align=right height=150px>
 
-This repository contains a collection of configuration files and scripts for setting up a Mac development environment, tailored to my personal preferences. It includes configuration files for the VIM text editor, the Bash and Zsh shells, and Git, as well as a script to customize macOS defaults and install Homebrew packages.
+# Moyai MacOS Setup
 
-## Installation
+> [!Note]
+> This repo is tailored to my personal preferences.
 
-To use these configurations, clone this repository to your local machine:
+This repository contains a personal collection of bootstrapping scripts for quickly setting up needed tools and apps on MacOS for development.
+
+## Scripts Usage
+
+To use the provided scripts, clone this repository to your local machine:
 
 ```bash
 git clone https://github.com/yourusername/mac-configs.git
