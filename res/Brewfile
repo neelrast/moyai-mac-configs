@@ -1,0 +1,41 @@
+# Taps
+tap "homebrew/services"
+tap "mongodb/brew"
+
+# Data & Infra Services & Tools
+cask "docker"
+cask "dbeaver-community"
+cask "lens"
+brew "minikube"
+brew "mongodb/brew/mongodb-community"
+brew "postgresql@15"
+brew "redis"
+
+# Programming Languages
+brew "go"
+cask "mambaforge"
+cask "powershell"
+cask "temurin"
+
+# Dev Tools
+cask "codewhisperer"
+cask "github"
+cask "iterm2"
+cask "jetbrains-toolbox"
+cask "postman"
+cask "visual-studio-code"
+
+# CLI Tools
+brew "azure-cli"
+brew "gh"
+brew "tree"
+brew "jq"
+cask "awscli"
+cask "google-cloud-sdk"
+
+# Utility Apps
+cask "bartender"
+cask "fig"
+cask "keka"
+cask "whisky"
+
