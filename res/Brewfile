@@ -35,7 +35,5 @@ cask "google-cloud-sdk"
 
 # Utility Apps
 cask "bartender"
-cask "fig"
 cask "keka"
 cask "whisky"
-
