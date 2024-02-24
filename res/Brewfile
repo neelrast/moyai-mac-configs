@@ -4,7 +4,6 @@ tap "mongodb/brew"
 
 # Data & Infra Services & Tools
 cask "docker"
-cask "dbeaver-community"
 cask "lens"
 brew "minikube"
 brew "mongodb/brew/mongodb-community"
@@ -22,8 +21,12 @@ cask "codewhisperer"
 cask "github"
 cask "iterm2"
 cask "jetbrains-toolbox"
-cask "postman"
+cask "insomnia"
 cask "visual-studio-code"
+
+# Design Tools
+cask "figma"
+cask "drawio"
 
 # CLI Tools
 brew "azure-cli"
@@ -35,6 +38,9 @@ cask "google-cloud-sdk"
 
 # Utility Apps
 cask "bartender"
-cask "keka"
-cask "whisky"
 cask "hazeover"
+cask "keka"
+cask "obsidian"
+cask "spotify"
+cask "tiles"
+cask "whisky"
