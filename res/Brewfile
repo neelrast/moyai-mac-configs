@@ -38,7 +38,6 @@ cask "google-cloud-sdk"
 
 # Utility Apps
 cask "bartender"
-cask "hazeover"
 cask "keka"
 cask "obsidian"
 cask "spotify"
