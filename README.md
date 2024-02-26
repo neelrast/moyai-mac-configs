@@ -31,7 +31,3 @@ cd scripts
 # Replace <script-name> with the name of the script you want to run
 ./<script-name>.sh
 ```
-
-## Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
