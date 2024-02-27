@@ -63,7 +63,8 @@ else
         exit 1
     else
         # Print a message
-        printf "${GREEN}Setup Complete Restarting iTerm2...${NC}\n"
+        printf "${GREEN}Setup Complete...${NC}\n"
+        printf "${GREEN}Restarting iTerm2...${NC}\n"
         # Restart iTerm2
         osascript -e 'tell application "iTerm" to quit'
         open -a iTerm
