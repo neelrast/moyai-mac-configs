@@ -26,6 +26,7 @@ brew upgrade
 
 # Install using brewfile
 printf "${YELLOW}Installing using Brewfile...${NC}\n"
+brew install mas
 brew tap homebrew/bundle
 brew bundle --file=../res/Brewfile
 
