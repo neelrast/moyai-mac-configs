@@ -2,7 +2,7 @@
 tap "homebrew/services"
 tap "mongodb/brew"
 
-# Data & Infra Services & Tools
+# Data & Infra Tools
 cask "docker"
 cask "lens"
 brew "minikube"
@@ -24,22 +24,53 @@ cask "jetbrains-toolbox"
 cask "insomnia"
 cask "visual-studio-code"
 
-# Design Tools
-cask "figma"
-cask "drawio"
-
 # CLI Tools
+cask "google-cloud-sdk"
 brew "azure-cli"
 brew "awscli"
 brew "gh"
 brew "tree"
 brew "jq"
-cask "google-cloud-sdk"
+brew "neofetch"
+brew "gum"
+brew "tmux"
+
+# General Office & Meeting Apps
+cask "slack"
+cask "zoom"
+cask "webex"
+cask "google-chrome"
+cask "obsidian"
+mas "Brother iPrint&Scan", id: 1193539993
+mas "HP Smart", id: 1474276998
+mas "Kindle", id: 302584613
+mas "Keynote", id: 409183694
+mas "Pages", id: 409201541
+mas "Numbers", id: 409203825
+mas "Microsoft Outlook", id: 985367838
+mas "Microsoft Excel", id: 462058435
+mas "Microsoft Word", id: 462054704
+mas "Microsoft PowerPoint", id: 462062816
+mas "Todoist", id: 585829637
+mas "Bitwarden", id: 1352778147
+cask "megasync"
+cask "onedrive"
 
 # Utility Apps
+mas "Amphetamine", id: 937984704
 cask "bartender"
 cask "keka"
-cask "obsidian"
 cask "spotify"
+mas "DaftCloud", id: 1320450034
 cask "tiles"
 cask "whisky"
+
+# Video Editing
+mas "CapCut", id: 1500855883
+mas "iMovie", id: 408981434
+mas "DaVinci Resolve", id: 571213070
+
+# Design & Prototyping
+mas "Canva", id: 897446215
+cask "figma"
+cask "drawio"
